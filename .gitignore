@@ -1,0 +1,13 @@
+# Local database backup artifacts (never commit production data)
+backups/*
+!backups/.gitkeep
+*.dump
+*.backup
+*.sql.gz
+*.sha256
+*.log
+
+# Secrets and local environment files
+.env
+.pgpass
+pgpass.conf
